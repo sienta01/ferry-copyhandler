@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ferry}",
+            "name": "Debug Ferry",
+            "target": "Ferry",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug Ferry"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ferry}",
+            "name": "Release Ferry",
+            "target": "Ferry",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release Ferry"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ferry}",
+            "name": "Debug ferry-cli",
+            "target": "ferry-cli",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug ferry-cli"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ferry}",
+            "name": "Release ferry-cli",
+            "target": "ferry-cli",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release ferry-cli"
+        }
+    ]
+}
